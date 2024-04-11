@@ -1,0 +1,74 @@
+*{
+    font-family: "Jura", sans-serif;
+}
+
+body{
+    background-color: #000000;
+}
+.navbar {
+    border-bottom: 3px solid white;
+}
+.testata {
+    background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgb(0, 0, 0)), url(media/moon.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+.testoheader{
+    height: 90%;
+    width: fit-content;
+}
+.text-size {
+    font-size: 50px;
+    font-family: "Orbitron", sans-serif;
+}
+
+.card1{
+    border-bottom: 3px solid #2B9DF4;
+    padding-bottom: 12px;
+
+}
+.cardcode {
+    font-family: "Orbitron", sans-serif;
+    font-size: 40px;
+    
+}
+.text-custom{
+    font-size: 35px;
+    color: #2B9DF4;
+    font-family: "Orbitron", sans-serif
+}
+.text-custom2 {
+    font-size: 20px;
+    color: #2B9DF4;
+    font-family: "Orbitron", sans-serif
+
+}
+.line {
+    border-top: 3px solid #2B9DF4;
+}
+.btn {
+    
+    border: 2px double #2B9DF4;
+}
+footer{
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.037), rgb(0, 0, 0)), url(media/sunrise-1765027_1920.jpg);
+    
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.socialfooter {
+    list-style: none;
+    
+}
+.lineafooter {
+    width: 50%;
+    
+    border: 2px solid #2B9DF4;
+    border-radius: 50%;
+}
+
+
